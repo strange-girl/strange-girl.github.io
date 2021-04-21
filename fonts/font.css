@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NothingYouCouldDo-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./NothingYouCouldDo-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AmaticSC-Bold";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./AmaticSC-Bold.ttf") format("truetype");
+}
