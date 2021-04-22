@@ -1,25 +1,62 @@
-@import url("./fonts/font.css");
+/* @import url("./fonts/font.css"); */
 
-.container {
+/* Setting fade transition and default settings */
+body {
+  color: #000;
+  background-color: #f4f4f4;
+  transition: background-color 1s ease;
+}
+
+/* panel styles */
+.panel {
+  /* min height incase content is higher than window height */
+  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  width: 500px;
-  
-}
-.text3 {
-  font-family: "AmaticSC-Bold";
-
+  font-family: sans-serif;
+  /* outline: 10px solid hotpink; */
+  /* turn above on to see the edge of panels */
 }
 
-.text4 {
+/* colours */
+.color-violet {
+  background-color: #7A4EAB;
+}
+.color-indigo {
+  background-color: #4332CF;
+}
+.color-blue {
+  background-color: #2F8FED;
+}
+.color-green {
+  background-color: #4DCF42;
+}
+.color-yellow {
+  background-color: #FAEB33;
+}
+.color-orange {
+  background-color: #F19031;
+}
+.color-red {
+  background-color: #F2293A;
+}
+
+/* styling for demo, can ignore */
+body {
   text-align: center;
-  font-family: "AmaticSC-Bold";
-  font-size: 22px;
-  color: rgba(0, 0, 0, 0.555);
-  margin: 5px;
+  font-size: 120%;
+  line-height: 1.618;
 }
-
-.foto {
-  width: 100px;
+h1, h2 {
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.1;
+}
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+}
+a {
+  color: #4332CF;
 }
