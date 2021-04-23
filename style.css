@@ -53,28 +53,55 @@ h1, h2 {
   letter-spacing: -0.05em;
   line-height: 1.1;
 }
+
 p {
   max-width: 30em;
   margin-bottom: 1.618em;
 }
+
 a {
   color: #4332CF;
 }
 
-
 .white__subtitile {
+  position: relative;
   font-size: 32px;
-  margin-top: 155px;
+  margin-top: 255px;
+}
+
+.white__subtitile::after {
+  content: url('./arrow.png');
+  position: absolute;
+  top: 35px;
+  left: calc(50% - 20px);
 }
 
 .title__smart {
   margin: 5px;
 }
 
-.link {
 
+.list-links {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
 }
 
 .foto {
   width: 250px;
+}
+
+@media screen and (max-width: 907px) {
+  .white__subtitile::after {
+    left: calc(50% - 22px);
+  }
+}
+
+@media screen and (max-width: 623px) {
+  .white__title {
+    font-size: 45px;
+  }
 }
