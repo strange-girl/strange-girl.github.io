@@ -123,15 +123,53 @@ a {
   margin: 0 auto 50px 0;
   border: 14px solid white;
 }
-
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+}
 @media screen and (max-width: 907px) {
   .white__subtitile::after {
     left: calc(50% - 22px);
+  }
+
+  .footer__linara {
+    width: 350px;
+  }
+
+  .title {
+    font-size: 35px;
   }
 }
 
 @media screen and (max-width: 623px) {
   .white__title {
     font-size: 45px;
+  }
+
+  .white__subtitile {
+    font-size: 23px; 
+  }
+
+  .white__subtitile::after {
+    content: url('./arrow2.png');
+    top: 24px;
+    left: calc(50% - 24px);
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .title {
+    font-size: 27px;
+  }
+  .list-links {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .footer__linara {
+    width: 250px;
   }
 }
